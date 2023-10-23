@@ -6,8 +6,10 @@ import PixIcon from '@mui/icons-material/Pix'
 
 import FlexBetween from '@/components/FlexBetween'
 
+// eslint-disable-next-line @typescript-eslint/ban-types
 type Props = {}
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const Navbar = (props: Props) => {
   const { palette } = useTheme()
   const [selected, setSelected] = useState('dashboard')
